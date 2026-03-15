@@ -1,0 +1,1240 @@
+{
+  "clark_evans_z": {
+    "mixed_model": {
+      "converged": true,
+      "formula": "clark_evans_z ~ C(regime) + synapse_count + total_length_nm + exc_fraction",
+      "regime_coefficients": {
+        "C(regime)[T.1]": 0.09795800332843235,
+        "C(regime)[T.2]": 0.35167373034840355
+      },
+      "regime_pvalues": {
+        "C(regime)[T.1]": 0.45780743198977036,
+        "C(regime)[T.2]": 0.04649734380388492
+      },
+      "aic": NaN,
+      "bic": NaN,
+      "n_obs": 729
+    },
+    "kruskal_wallis": [
+      {
+        "neuron_label": "exc_23P",
+        "H": 0.3558138589717714,
+        "p_value": 0.8370203217753667,
+        "n_branches": 74,
+        "p_bh": 0.9131512477984881
+      },
+      {
+        "neuron_label": "exc_23P_2",
+        "H": 2.7787608304289506,
+        "p_value": 0.24922967571891805,
+        "n_branches": 66,
+        "p_bh": 0.5904141813107441
+      },
+      {
+        "neuron_label": "exc_4P",
+        "H": 2.1318549737635237,
+        "p_value": 0.3444082724312674,
+        "n_branches": 52,
+        "p_bh": 0.5904141813107441
+      },
+      {
+        "neuron_label": "exc_5PET",
+        "H": 0.35573025771526545,
+        "p_value": 0.8370553104819474,
+        "n_branches": 114,
+        "p_bh": 0.9131512477984881
+      },
+      {
+        "neuron_label": "exc_5PIT",
+        "H": 3.0667239193554963,
+        "p_value": 0.21580890549020837,
+        "n_branches": 65,
+        "p_bh": 0.5904141813107441
+      },
+      {
+        "neuron_label": "exc_6PCT",
+        "H": 1.7243305475012818,
+        "p_value": 0.42224681183181545,
+        "n_branches": 40,
+        "p_bh": 0.6333702177477232
+      },
+      {
+        "neuron_label": "inh_BC",
+        "H": 3.451574477083284,
+        "p_value": 0.17803284227586194,
+        "n_branches": 66,
+        "p_bh": 0.5904141813107441
+      },
+      {
+        "neuron_label": "inh_BC_2",
+        "H": 11.867661656681719,
+        "p_value": 0.0026483172826829806,
+        "n_branches": 72,
+        "p_bh": 0.03177980739219577
+      },
+      {
+        "neuron_label": "inh_BPC",
+        "H": 2.1608643457382897,
+        "p_value": 0.3394487933814079,
+        "n_branches": 34,
+        "p_bh": 0.5904141813107441
+      },
+      {
+        "neuron_label": "inh_BPC_2",
+        "H": 0.006818181818189828,
+        "p_value": 0.9341916414435726,
+        "n_branches": 32,
+        "p_bh": 0.9341916414435726
+      },
+      {
+        "neuron_label": "inh_MC",
+        "H": 1.1546748251748227,
+        "p_value": 0.5613911313349937,
+        "n_branches": 65,
+        "p_bh": 0.7485215084466583
+      },
+      {
+        "neuron_label": "inh_MC_2",
+        "H": 3.4082260596546234,
+        "p_value": 0.18193368438289828,
+        "n_branches": 49,
+        "p_bh": 0.5904141813107441
+      }
+    ],
+    "permutation": {
+      "observed_stat": 0.40144785779264286,
+      "p_value": 0.0019
+    },
+    "within_order": [
+      {
+        "branch_order": 0,
+        "H": 0.055555555555557135,
+        "p_value": 0.8136637157667893,
+        "n_branches": 11,
+        "n_regimes": 2,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 1,
+        "H": 4.751033078854505,
+        "p_value": 0.09296645596628067,
+        "n_branches": 91,
+        "n_regimes": 3,
+        "p_bh": 0.6042819637808243
+      },
+      {
+        "branch_order": 2,
+        "H": 0.6763641813208778,
+        "p_value": 0.7130654335202805,
+        "n_branches": 123,
+        "n_regimes": 3,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 3,
+        "H": 1.2738763675349674,
+        "p_value": 0.5289093706797948,
+        "n_branches": 164,
+        "n_regimes": 3,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 4,
+        "H": 0.04337878259161698,
+        "p_value": 0.9785441321771102,
+        "n_branches": 147,
+        "n_regimes": 3,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 5,
+        "H": 0.15781067575773022,
+        "p_value": 0.9241274001646014,
+        "n_branches": 69,
+        "n_regimes": 3,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 6,
+        "H": 1.088134741075919,
+        "p_value": 0.5803828131212527,
+        "n_branches": 39,
+        "n_regimes": 3,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 7,
+        "H": 7.332679738562092,
+        "p_value": 0.02556988801382198,
+        "n_branches": 17,
+        "n_regimes": 3,
+        "p_bh": 0.33240854417968574
+      },
+      {
+        "branch_order": 8,
+        "H": 0.34415584415584277,
+        "p_value": 0.8419135669578794,
+        "n_branches": 11,
+        "n_regimes": 3,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 9,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 8,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 10,
+        "H": 0.42857142857142705,
+        "p_value": 0.5126907602619241,
+        "n_branches": 7,
+        "n_regimes": 2,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 11,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 4,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 12,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 5,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 13,
+        "H": 1.3333333333333321,
+        "p_value": 0.24821307898992043,
+        "n_branches": 6,
+        "n_regimes": 2,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 14,
+        "H": 0.0,
+        "p_value": 1.0,
+        "n_branches": 4,
+        "n_regimes": 2,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 15,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 3,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 16,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 17,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 2,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 18,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 4,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 19,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 3,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 20,
+        "H": 0.21428571428571175,
+        "p_value": 0.6434288435636226,
+        "n_branches": 6,
+        "n_regimes": 2,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 21,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 22,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 23,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 25,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      }
+    ],
+    "residual": {
+      "converged": true,
+      "order_r2": 1.793256691284828e-05,
+      "residual_H": 11.333449672965344,
+      "residual_p": 0.0034591761109742875,
+      "n_obs": 729
+    },
+    "order_shuffle": {
+      "observed_stat": 0.40144785779264286,
+      "p_value": 0.0921
+    },
+    "sensitivity": [
+      {
+        "threshold_low": 0.027331345316717496,
+        "threshold_high": 0.11666818489627413,
+        "source": "primary_tertile",
+        "n_regime_0": 411,
+        "n_regime_1": 412,
+        "n_regime_2": 411,
+        "max_abs_coefficient": 0.35167373034840355,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.1,
+        "threshold_high": 0.5,
+        "source": "biophysical",
+        "n_regime_0": 770,
+        "n_regime_1": 463,
+        "n_regime_2": 1,
+        "max_abs_coefficient": 0.5308546197008955,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.01680871015288992,
+        "threshold_high": 0.09032173249524973,
+        "source": "quantile",
+        "n_regime_0": 247,
+        "n_regime_1": 493,
+        "n_regime_2": 494,
+        "max_abs_coefficient": 0.5017706750751192,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.02009215741261225,
+        "threshold_high": 0.10932388979770143,
+        "source": "quantile",
+        "n_regime_0": 309,
+        "n_regime_1": 493,
+        "n_regime_2": 432,
+        "max_abs_coefficient": 0.376392542409349,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.023752888028563818,
+        "threshold_high": 0.1262275030605732,
+        "source": "quantile",
+        "n_regime_0": 370,
+        "n_regime_1": 494,
+        "n_regime_2": 370,
+        "max_abs_coefficient": 0.4587841203946308,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.026808639708602314,
+        "threshold_high": 0.11716964926696344,
+        "source": "quantile",
+        "n_regime_0": 407,
+        "n_regime_1": 420,
+        "n_regime_2": 407,
+        "max_abs_coefficient": 0.4275932379692617,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.029735082850106783,
+        "threshold_high": 0.14681372496745165,
+        "source": "quantile",
+        "n_regime_0": 432,
+        "n_regime_1": 493,
+        "n_regime_2": 309,
+        "max_abs_coefficient": 0.2999447908605097,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.03666957334424829,
+        "threshold_high": 0.16847212815953638,
+        "source": "quantile",
+        "n_regime_0": 494,
+        "n_regime_1": 493,
+        "n_regime_2": 247,
+        "max_abs_coefficient": 0.43830865545651093,
+        "converged": true
+      }
+    ]
+  },
+  "interval_cv_z": {
+    "mixed_model": {
+      "converged": true,
+      "formula": "interval_cv_z ~ C(regime) + synapse_count + total_length_nm + exc_fraction",
+      "regime_coefficients": {
+        "C(regime)[T.1]": -0.04914114627669452,
+        "C(regime)[T.2]": -0.4120432563469009
+      },
+      "regime_pvalues": {
+        "C(regime)[T.1]": 0.7195041990832731,
+        "C(regime)[T.2]": 0.03681390705842259
+      },
+      "aic": NaN,
+      "bic": NaN,
+      "n_obs": 853
+    },
+    "kruskal_wallis": [
+      {
+        "neuron_label": "exc_23P",
+        "H": 3.315828597157463,
+        "p_value": 0.19053596709681422,
+        "n_branches": 87,
+        "p_bh": 0.6582706195774651
+      },
+      {
+        "neuron_label": "exc_23P_2",
+        "H": 0.24262141182830987,
+        "p_value": 0.8857587063651052,
+        "n_branches": 82,
+        "p_bh": 0.8857587063651052
+      },
+      {
+        "neuron_label": "exc_4P",
+        "H": 0.6699067796610052,
+        "p_value": 0.7153714291590636,
+        "n_branches": 59,
+        "p_bh": 0.8857587063651052
+      },
+      {
+        "neuron_label": "exc_5PET",
+        "H": 6.618115091015909,
+        "p_value": 0.03655060480802929,
+        "n_branches": 130,
+        "p_bh": 0.4386072576963515
+      },
+      {
+        "neuron_label": "exc_5PIT",
+        "H": 0.3218402649981442,
+        "p_value": 0.8513600643926209,
+        "n_branches": 77,
+        "p_bh": 0.8857587063651052
+      },
+      {
+        "neuron_label": "exc_6PCT",
+        "H": 2.1066822520943163,
+        "p_value": 0.3487705140083511,
+        "n_branches": 58,
+        "p_bh": 0.6975410280167021
+      },
+      {
+        "neuron_label": "inh_BC",
+        "H": 2.587215787215797,
+        "p_value": 0.2742794248239438,
+        "n_branches": 74,
+        "p_bh": 0.6582706195774651
+      },
+      {
+        "neuron_label": "inh_BC_2",
+        "H": 4.3272718290834575,
+        "p_value": 0.11490657012223339,
+        "n_branches": 80,
+        "p_bh": 0.6582706195774651
+      },
+      {
+        "neuron_label": "inh_BPC",
+        "H": 2.9143040780141973,
+        "p_value": 0.23289861729654118,
+        "n_branches": 47,
+        "p_bh": 0.6582706195774651
+      },
+      {
+        "neuron_label": "inh_BPC_2",
+        "H": 1.1287496287496168,
+        "p_value": 0.5687155884481655,
+        "n_branches": 36,
+        "p_bh": 0.8530733826722483
+      },
+      {
+        "neuron_label": "inh_MC",
+        "H": 0.5429242119382991,
+        "p_value": 0.7622641681826618,
+        "n_branches": 71,
+        "p_bh": 0.8857587063651052
+      },
+      {
+        "neuron_label": "inh_MC_2",
+        "H": 1.4981634475828969,
+        "p_value": 0.472800514926193,
+        "n_branches": 52,
+        "p_bh": 0.8105151684449022
+      }
+    ],
+    "permutation": {
+      "observed_stat": 0.0870251456401584,
+      "p_value": 0.4957
+    },
+    "within_order": [
+      {
+        "branch_order": 0,
+        "H": 3.738461538461543,
+        "p_value": 0.05317338271357808,
+        "n_branches": 12,
+        "n_regimes": 2,
+        "p_bh": 0.43680690129053595
+      },
+      {
+        "branch_order": 1,
+        "H": 1.5298527341150816,
+        "p_value": 0.46536819614238434,
+        "n_branches": 97,
+        "n_regimes": 3,
+        "p_bh": 0.7247608221224234
+      },
+      {
+        "branch_order": 2,
+        "H": 0.5498095045878131,
+        "p_value": 0.7596444741728945,
+        "n_branches": 148,
+        "n_regimes": 3,
+        "p_bh": 0.856015032709963
+      },
+      {
+        "branch_order": 3,
+        "H": 1.8951726964041882,
+        "p_value": 0.3876756090494679,
+        "n_branches": 178,
+        "n_regimes": 3,
+        "p_bh": 0.7247608221224234
+      },
+      {
+        "branch_order": 4,
+        "H": 5.17877940874456,
+        "p_value": 0.07506583846163528,
+        "n_branches": 164,
+        "n_regimes": 3,
+        "p_bh": 0.43680690129053595
+      },
+      {
+        "branch_order": 5,
+        "H": 0.24679526355996018,
+        "p_value": 0.8839121211233608,
+        "n_branches": 84,
+        "n_regimes": 3,
+        "p_bh": 0.9359069517776761
+      },
+      {
+        "branch_order": 6,
+        "H": 0.5465007541478428,
+        "p_value": 0.7609022512977449,
+        "n_branches": 51,
+        "n_regimes": 3,
+        "p_bh": 0.856015032709963
+      },
+      {
+        "branch_order": 7,
+        "H": 5.756187290969891,
+        "p_value": 0.056241877659690145,
+        "n_branches": 22,
+        "n_regimes": 3,
+        "p_bh": 0.43680690129053595
+      },
+      {
+        "branch_order": 8,
+        "H": 1.2932461873638346,
+        "p_value": 0.5238116563697928,
+        "n_branches": 17,
+        "n_regimes": 3,
+        "p_bh": 0.7247608221224234
+      },
+      {
+        "branch_order": 9,
+        "H": 0.0,
+        "p_value": 1.0,
+        "n_branches": 11,
+        "n_regimes": 2,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 10,
+        "H": 4.511111111111113,
+        "p_value": 0.10481529683762549,
+        "n_branches": 9,
+        "n_regimes": 3,
+        "p_bh": 0.43680690129053595
+      },
+      {
+        "branch_order": 11,
+        "H": 1.0888888888888886,
+        "p_value": 0.29671752632205745,
+        "n_branches": 8,
+        "n_regimes": 2,
+        "p_bh": 0.7247608221224234
+      },
+      {
+        "branch_order": 12,
+        "H": 0.3333333333333357,
+        "p_value": 0.5637028616507718,
+        "n_branches": 6,
+        "n_regimes": 2,
+        "p_bh": 0.7247608221224234
+      },
+      {
+        "branch_order": 13,
+        "H": 1.125,
+        "p_value": 0.2888443663464818,
+        "n_branches": 8,
+        "n_regimes": 2,
+        "p_bh": 0.7247608221224234
+      },
+      {
+        "branch_order": 14,
+        "H": 0.5999999999999996,
+        "p_value": 0.43857802608099994,
+        "n_branches": 5,
+        "n_regimes": 2,
+        "p_bh": 0.7247608221224234
+      },
+      {
+        "branch_order": 15,
+        "H": 2.3999999999999986,
+        "p_value": 0.12133525035848222,
+        "n_branches": 4,
+        "n_regimes": 2,
+        "p_bh": 0.43680690129053595
+      },
+      {
+        "branch_order": 16,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 2,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 17,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 4,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 18,
+        "H": 0.33333333333333215,
+        "p_value": 0.5637028616507738,
+        "n_branches": 5,
+        "n_regimes": 2,
+        "p_bh": 0.7247608221224234
+      },
+      {
+        "branch_order": 19,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 4,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 20,
+        "H": 0.8571428571428577,
+        "p_value": 0.3545394797735011,
+        "n_branches": 6,
+        "n_regimes": 2,
+        "p_bh": 0.7247608221224234
+      },
+      {
+        "branch_order": 21,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 22,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 23,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 2,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 25,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 26,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 27,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 2,
+        "n_regimes": 1,
+        "p_bh": NaN
+      }
+    ],
+    "residual": {
+      "converged": true,
+      "order_r2": 0.00031772079747049986,
+      "residual_H": 1.8232972611267542,
+      "residual_p": 0.40186115702184877,
+      "n_obs": 853
+    },
+    "order_shuffle": {
+      "observed_stat": 0.0870251456401584,
+      "p_value": 0.9044
+    },
+    "sensitivity": [
+      {
+        "threshold_low": 0.027331345316717496,
+        "threshold_high": 0.11666818489627413,
+        "source": "primary_tertile",
+        "n_regime_0": 411,
+        "n_regime_1": 412,
+        "n_regime_2": 411,
+        "max_abs_coefficient": 0.4120432563469009,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.1,
+        "threshold_high": 0.5,
+        "source": "biophysical",
+        "n_regime_0": 770,
+        "n_regime_1": 463,
+        "n_regime_2": 1,
+        "max_abs_coefficient": 3.224626675999053,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.01680871015288992,
+        "threshold_high": 0.09032173249524973,
+        "source": "quantile",
+        "n_regime_0": 247,
+        "n_regime_1": 493,
+        "n_regime_2": 494,
+        "max_abs_coefficient": 0.49772720555884903,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.02009215741261225,
+        "threshold_high": 0.10932388979770143,
+        "source": "quantile",
+        "n_regime_0": 309,
+        "n_regime_1": 493,
+        "n_regime_2": 432,
+        "max_abs_coefficient": 0.584532626986159,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.023752888028563818,
+        "threshold_high": 0.1262275030605732,
+        "source": "quantile",
+        "n_regime_0": 370,
+        "n_regime_1": 494,
+        "n_regime_2": 370,
+        "max_abs_coefficient": 0.6056215522128358,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.026808639708602314,
+        "threshold_high": 0.11716964926696344,
+        "source": "quantile",
+        "n_regime_0": 407,
+        "n_regime_1": 420,
+        "n_regime_2": 407,
+        "max_abs_coefficient": 0.45465992198692023,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.029735082850106783,
+        "threshold_high": 0.14681372496745165,
+        "source": "quantile",
+        "n_regime_0": 432,
+        "n_regime_1": 493,
+        "n_regime_2": 309,
+        "max_abs_coefficient": 0.3728995437213883,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.03666957334424829,
+        "threshold_high": 0.16847212815953638,
+        "source": "quantile",
+        "n_regime_0": 494,
+        "n_regime_1": 493,
+        "n_regime_2": 247,
+        "max_abs_coefficient": 0.7890173413802775,
+        "converged": true
+      }
+    ]
+  },
+  "pairwise_compactness_z": {
+    "mixed_model": {
+      "converged": true,
+      "formula": "pairwise_compactness_z ~ C(regime) + synapse_count + total_length_nm + exc_fraction",
+      "regime_coefficients": {
+        "C(regime)[T.1]": 0.6003350435128981,
+        "C(regime)[T.2]": 0.8202270828943792
+      },
+      "regime_pvalues": {
+        "C(regime)[T.1]": 9.260145158048785e-06,
+        "C(regime)[T.2]": 3.474012454497967e-05
+      },
+      "aic": NaN,
+      "bic": NaN,
+      "n_obs": 853
+    },
+    "kruskal_wallis": [
+      {
+        "neuron_label": "exc_23P",
+        "H": 9.787555811630682,
+        "p_value": 0.007493060856779307,
+        "n_branches": 87,
+        "p_bh": 0.044958365140675846
+      },
+      {
+        "neuron_label": "exc_23P_2",
+        "H": 1.2113910044195961,
+        "p_value": 0.5456947627131217,
+        "n_branches": 82,
+        "p_bh": 0.5953033775052237
+      },
+      {
+        "neuron_label": "exc_4P",
+        "H": 3.375601694915275,
+        "p_value": 0.18492575709385106,
+        "n_branches": 59,
+        "p_bh": 0.3153913321736994
+      },
+      {
+        "neuron_label": "exc_5PET",
+        "H": 3.1188123899001994,
+        "p_value": 0.2102608881157996,
+        "n_branches": 130,
+        "p_bh": 0.3153913321736994
+      },
+      {
+        "neuron_label": "exc_5PIT",
+        "H": 3.5230216400141217,
+        "p_value": 0.17178513125465997,
+        "n_branches": 77,
+        "p_bh": 0.3153913321736994
+      },
+      {
+        "neuron_label": "exc_6PCT",
+        "H": 0.4388856419247986,
+        "p_value": 0.8029660692074935,
+        "n_branches": 58,
+        "p_bh": 0.8029660692074935
+      },
+      {
+        "neuron_label": "inh_BC",
+        "H": 13.696383526383528,
+        "p_value": 0.0010613731727946076,
+        "n_branches": 74,
+        "p_bh": 0.012736478073535291
+      },
+      {
+        "neuron_label": "inh_BC_2",
+        "H": 8.408938672706824,
+        "p_value": 0.014928706089060695,
+        "n_branches": 80,
+        "p_bh": 0.05971482435624278
+      },
+      {
+        "neuron_label": "inh_BPC",
+        "H": 2.8772163120567313,
+        "p_value": 0.2372577547530041,
+        "n_branches": 47,
+        "p_bh": 0.31634367300400545
+      },
+      {
+        "neuron_label": "inh_BPC_2",
+        "H": 1.2338217338217419,
+        "p_value": 0.53960878893482,
+        "n_branches": 36,
+        "p_bh": 0.5953033775052237
+      },
+      {
+        "neuron_label": "inh_MC",
+        "H": 4.747116220047587,
+        "p_value": 0.09314870260752109,
+        "n_branches": 71,
+        "p_bh": 0.2235568862580506
+      },
+      {
+        "neuron_label": "inh_MC_2",
+        "H": 7.066344758289574,
+        "p_value": 0.02921209686947457,
+        "n_branches": 52,
+        "p_bh": 0.0876362906084237
+      }
+    ],
+    "permutation": {
+      "observed_stat": 0.5720011504239222,
+      "p_value": 0.0
+    },
+    "within_order": [
+      {
+        "branch_order": 0,
+        "H": 0.18461538461538396,
+        "p_value": 0.667436491709883,
+        "n_branches": 12,
+        "n_regimes": 2,
+        "p_bh": 0.792774100933553
+      },
+      {
+        "branch_order": 1,
+        "H": 14.234485673730262,
+        "p_value": 0.0008109997299238501,
+        "n_branches": 97,
+        "n_regimes": 3,
+        "p_bh": 0.014597995138629302
+      },
+      {
+        "branch_order": 2,
+        "H": 6.295160624548998,
+        "p_value": 0.04295594118089068,
+        "n_branches": 148,
+        "n_regimes": 3,
+        "p_bh": 0.2300765768774844
+      },
+      {
+        "branch_order": 3,
+        "H": 0.3658706236683429,
+        "p_value": 0.8328220277240672,
+        "n_branches": 178,
+        "n_regimes": 3,
+        "p_bh": 0.8818115587666594
+      },
+      {
+        "branch_order": 4,
+        "H": 0.7127896493749972,
+        "p_value": 0.7001961109418063,
+        "n_branches": 164,
+        "n_regimes": 3,
+        "p_bh": 0.792774100933553
+      },
+      {
+        "branch_order": 5,
+        "H": 2.6483129615482994,
+        "p_value": 0.26602726358448336,
+        "n_branches": 84,
+        "n_regimes": 3,
+        "p_bh": 0.792774100933553
+      },
+      {
+        "branch_order": 6,
+        "H": 1.114208144796379,
+        "p_value": 0.5728656414498925,
+        "n_branches": 51,
+        "n_regimes": 3,
+        "p_bh": 0.792774100933553
+      },
+      {
+        "branch_order": 7,
+        "H": 4.15183946488294,
+        "p_value": 0.12544100226189817,
+        "n_branches": 22,
+        "n_regimes": 3,
+        "p_bh": 0.4515876081428334
+      },
+      {
+        "branch_order": 8,
+        "H": 5.946840958605669,
+        "p_value": 0.05112812819499653,
+        "n_branches": 17,
+        "n_regimes": 3,
+        "p_bh": 0.2300765768774844
+      },
+      {
+        "branch_order": 9,
+        "H": 0.18181818181817277,
+        "p_value": 0.6698153575994242,
+        "n_branches": 11,
+        "n_regimes": 2,
+        "p_bh": 0.792774100933553
+      },
+      {
+        "branch_order": 10,
+        "H": 0.6999999999999993,
+        "p_value": 0.7046880897187138,
+        "n_branches": 9,
+        "n_regimes": 3,
+        "p_bh": 0.792774100933553
+      },
+      {
+        "branch_order": 11,
+        "H": 0.55555555555555,
+        "p_value": 0.4560565402502583,
+        "n_branches": 8,
+        "n_regimes": 2,
+        "p_bh": 0.792774100933553
+      },
+      {
+        "branch_order": 12,
+        "H": 0.3333333333333357,
+        "p_value": 0.5637028616507718,
+        "n_branches": 6,
+        "n_regimes": 2,
+        "p_bh": 0.792774100933553
+      },
+      {
+        "branch_order": 13,
+        "H": 4.5,
+        "p_value": 0.033894853524689315,
+        "n_branches": 8,
+        "n_regimes": 2,
+        "p_bh": 0.2300765768774844
+      },
+      {
+        "branch_order": 14,
+        "H": 0.5999999999999996,
+        "p_value": 0.43857802608099994,
+        "n_branches": 5,
+        "n_regimes": 2,
+        "p_bh": 0.792774100933553
+      },
+      {
+        "branch_order": 15,
+        "H": 0.0,
+        "p_value": 1.0,
+        "n_branches": 4,
+        "n_regimes": 2,
+        "p_bh": 1.0
+      },
+      {
+        "branch_order": 16,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 2,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 17,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 4,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 18,
+        "H": 0.33333333333333215,
+        "p_value": 0.5637028616507738,
+        "n_branches": 5,
+        "n_regimes": 2,
+        "p_bh": 0.792774100933553
+      },
+      {
+        "branch_order": 19,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 4,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 20,
+        "H": 0.21428571428571175,
+        "p_value": 0.6434288435636226,
+        "n_branches": 6,
+        "n_regimes": 2,
+        "p_bh": 0.792774100933553
+      },
+      {
+        "branch_order": 21,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 22,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 23,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 2,
+        "n_regimes": 1,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 25,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 26,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 1,
+        "n_regimes": 0,
+        "p_bh": NaN
+      },
+      {
+        "branch_order": 27,
+        "H": NaN,
+        "p_value": NaN,
+        "n_branches": 2,
+        "n_regimes": 1,
+        "p_bh": NaN
+      }
+    ],
+    "residual": {
+      "converged": true,
+      "order_r2": 0.01101235410615875,
+      "residual_H": 18.12160866504837,
+      "residual_p": 0.00011612953225048673,
+      "n_obs": 853
+    },
+    "order_shuffle": {
+      "observed_stat": 0.5720011504239222,
+      "p_value": 0.1031
+    },
+    "sensitivity": [
+      {
+        "threshold_low": 0.027331345316717496,
+        "threshold_high": 0.11666818489627413,
+        "source": "primary_tertile",
+        "n_regime_0": 411,
+        "n_regime_1": 412,
+        "n_regime_2": 411,
+        "max_abs_coefficient": 0.8202270828943792,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.1,
+        "threshold_high": 0.5,
+        "source": "biophysical",
+        "n_regime_0": 770,
+        "n_regime_1": 463,
+        "n_regime_2": 1,
+        "max_abs_coefficient": 0.3141935156127369,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.01680871015288992,
+        "threshold_high": 0.09032173249524973,
+        "source": "quantile",
+        "n_regime_0": 247,
+        "n_regime_1": 493,
+        "n_regime_2": 494,
+        "max_abs_coefficient": 0.8338013017152356,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.02009215741261225,
+        "threshold_high": 0.10932388979770143,
+        "source": "quantile",
+        "n_regime_0": 309,
+        "n_regime_1": 493,
+        "n_regime_2": 432,
+        "max_abs_coefficient": 0.8143176572176145,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.023752888028563818,
+        "threshold_high": 0.1262275030605732,
+        "source": "quantile",
+        "n_regime_0": 370,
+        "n_regime_1": 494,
+        "n_regime_2": 370,
+        "max_abs_coefficient": 0.8497916954006457,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.026808639708602314,
+        "threshold_high": 0.11716964926696344,
+        "source": "quantile",
+        "n_regime_0": 407,
+        "n_regime_1": 420,
+        "n_regime_2": 407,
+        "max_abs_coefficient": 0.8478884199695839,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.029735082850106783,
+        "threshold_high": 0.14681372496745165,
+        "source": "quantile",
+        "n_regime_0": 432,
+        "n_regime_1": 493,
+        "n_regime_2": 309,
+        "max_abs_coefficient": 1.083532789335948,
+        "converged": true
+      },
+      {
+        "threshold_low": 0.03666957334424829,
+        "threshold_high": 0.16847212815953638,
+        "source": "quantile",
+        "n_regime_0": 494,
+        "n_regime_1": 493,
+        "n_regime_2": 247,
+        "max_abs_coefficient": 1.273866495191151,
+        "converged": true
+      }
+    ]
+  }
+}

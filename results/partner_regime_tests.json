@@ -1,0 +1,31 @@
+{
+  "test_results": {
+    "n_partners": 1230,
+    "regime_counts": {
+      "2": 785,
+      "1": 282,
+      "0": 163
+    },
+    "kruskal_H": 9.457502868317535,
+    "kruskal_p": 0.00883749835269615,
+    "regime_0_median": 0.8400771187322021,
+    "regime_0_mean": 0.7644959786379366,
+    "regime_0_n": 163,
+    "regime_1_median": 0.8034092553171615,
+    "regime_1_mean": 0.7129302267359079,
+    "regime_1_n": 282,
+    "regime_2_median": 0.8578366336668098,
+    "regime_2_mean": Infinity,
+    "regime_2_n": 785,
+    "mw_0v2_U": 62190.0,
+    "mw_0v2_p": 0.5742772320490852
+  },
+  "spanning_analysis": {
+    "n_spanning": 819,
+    "n_non_spanning": 411,
+    "spanning_median_effect": 0.8800511494530008,
+    "non_spanning_median_effect": 0.7003925357039318,
+    "mw_U": 228308.0,
+    "mw_p": 1.7688389226126978e-24
+  }
+}
