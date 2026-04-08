@@ -37,7 +37,11 @@ def fit_mixed_model(df, metric_col, covariates=None):
     dict with 'model', 'converged', 'regime_coefficients', 'regime_pvalues',
     'aic', 'bic', 'n_obs'.
     """
-    work = df.dropna(subset=[metric_col, "regime"]).copy()
+    # Drop NaN on metric, regime, AND all covariates to avoid silent model failure
+    drop_cols = [metric_col, "regime"]
+    if covariates:
+        drop_cols.extend([c for c in covariates if c in df.columns])
+    work = df.dropna(subset=drop_cols).copy()
     work = work[work["regime"] >= 0].copy()
 
     if len(work) < 20:
